@@ -16,7 +16,7 @@ test.describe('cal.com', () => {
         const dashboard = new DashboardPage(popup)
         const meetings = await dashboard.getAdminMeetings()
         console.log(meetings)
-        dashboard.saveMeetingsToFile('C:/Users/Admin/Downloads/js_practice/js_practice/data/meetings.txt', meetings)
+        dashboard.saveMeetingsToFile('C:/Users/Admin/Downloads/for_git/Automation/data/meetings.txt', meetings)
 
         await dashboard.toggleMeetingSwitchFor30min()
         await dashboard.createEvent('meet1', 'new meet')
