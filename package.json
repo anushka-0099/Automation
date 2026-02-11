@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testone":"npx playwright test tests/calcom_pom.spec.ts"
+    "testone":"npx playwright test tests/example.spec.ts"
   },
   "keywords": [],
   "author": "",
